@@ -10,6 +10,7 @@ Fonctionnalites terminees :
 - Suppression de tache
 - Marquer les taches comme terminees
 - Ajout de comoter
+
 Fonctionnalites non Realisees
 - Ajout de l'option de filtre (j'avais un peu la flemme)
 - Sauvegarde avec localStorage (en raison de sa difficulte)
