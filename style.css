@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0 ;
+    padding: 20px ;
+}
+.conteneur{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px ;
+    border-radius: 5px ;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1)
+}
+form {
+    display: flex; 
+    justify-content: space-between;
+    margin-bottom: 20px ;
+}
+.liste{
+    margin-top: 20px;
+}
+.liste li {
+    padding: 10px ;
+    margin-bottom: 10px ;
+}
+.liste li.completed {
+    color: gray;
+    text-decoration: line-through;
+}
+.completed {
+    opacity: 0.6;
+}

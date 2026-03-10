@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo-List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="conteneur">
+        <h1>LISTE DES TACHE</h1>
+        <form id = "formulaire"> 
+            <label for="tache">Entrez une tache</label>
+            <input type="text" id="tache" placeholder="Votre tache tache">
+            <button type = "submit">Ajouter</button>
+        </form>
+        <div class = "compter">
+            <p>Nombre d'element : <span id = "compteur">0</span></p>
+        </div>
+        <div class="liste">
+            <ul id = "maliste">
+            </ul>
+        </div>
+    </div>
+    <script src = "script.js"></script>
+</body>
+</html>
